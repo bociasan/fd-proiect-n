@@ -13,7 +13,7 @@ export const mockValues = {
     l:-1,
     m:-1,
     n:-1,
-    z:-1,
+    // z:-1,
 }
 
 

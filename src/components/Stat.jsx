@@ -14,7 +14,7 @@ export default function Stat({name, value, forces, setForces, recalc}) {
             forces[name].forceZero = !forces[name].forceZero
             setForces({...forces})
         }
-        console.log('f0')
+        // console.log('f0')
         recalc()
     }
 
@@ -25,7 +25,7 @@ export default function Stat({name, value, forces, setForces, recalc}) {
             forces[name].forceOne = !forces[name].forceOne
             setForces({...forces})
         }
-        console.log('f1')
+        // console.log('f1')
         recalc()
     }
 
